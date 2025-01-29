@@ -16,7 +16,7 @@
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* BrightcoveImaPlayerExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* BrightcoveImaPlayerExampleTests.m */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		F5D6786470197B5CB7874FF9 /* libPods-BrightcoveImaPlayerExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 89AF8C62FC45B2F257BC3CC2 /* libPods-BrightcoveImaPlayerExample.a */; };
+		F39B6A3AE5A7AB808D20701F /* libPods-BrightcoveImaPlayerExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D8C1F932DAACE18B0EA2E7D6 /* libPods-BrightcoveImaPlayerExample.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,18 +41,18 @@
 		00E356EE1AD99517003FC87E /* BrightcoveImaPlayerExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrightcoveImaPlayerExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* BrightcoveImaPlayerExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BrightcoveImaPlayerExampleTests.m; sourceTree = "<group>"; };
+		0AD39B5006F0A5969FD8F71E /* Pods-BrightcoveImaPlayerExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrightcoveImaPlayerExample.release.xcconfig"; path = "Target Support Files/Pods-BrightcoveImaPlayerExample/Pods-BrightcoveImaPlayerExample.release.xcconfig"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* BrightcoveImaPlayerExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BrightcoveImaPlayerExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = BrightcoveImaPlayerExample/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = BrightcoveImaPlayerExample/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = BrightcoveImaPlayerExample/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = BrightcoveImaPlayerExample/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = BrightcoveImaPlayerExample/main.m; sourceTree = "<group>"; };
-		2BE75178CBEED0D1E28757C6 /* Pods-BrightcoveImaPlayerExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrightcoveImaPlayerExample.release.xcconfig"; path = "Target Support Files/Pods-BrightcoveImaPlayerExample/Pods-BrightcoveImaPlayerExample.release.xcconfig"; sourceTree = "<group>"; };
+		18BA2437DECCA278C0E03566 /* Pods-BrightcoveImaPlayerExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrightcoveImaPlayerExample.debug.xcconfig"; path = "Target Support Files/Pods-BrightcoveImaPlayerExample/Pods-BrightcoveImaPlayerExample.debug.xcconfig"; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* BrightcoveImaPlayerExample-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BrightcoveImaPlayerExample-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* BrightcoveImaPlayerExample-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BrightcoveImaPlayerExample-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D812F7905C7D428C838C3BE /* Pods-BrightcoveImaPlayerExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrightcoveImaPlayerExample.debug.xcconfig"; path = "Target Support Files/Pods-BrightcoveImaPlayerExample/Pods-BrightcoveImaPlayerExample.debug.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = BrightcoveImaPlayerExample/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		89AF8C62FC45B2F257BC3CC2 /* libPods-BrightcoveImaPlayerExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BrightcoveImaPlayerExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8C1F932DAACE18B0EA2E7D6 /* libPods-BrightcoveImaPlayerExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BrightcoveImaPlayerExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
@@ -69,7 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F5D6786470197B5CB7874FF9 /* libPods-BrightcoveImaPlayerExample.a in Frameworks */,
+				F39B6A3AE5A7AB808D20701F /* libPods-BrightcoveImaPlayerExample.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -126,7 +126,7 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				89AF8C62FC45B2F257BC3CC2 /* libPods-BrightcoveImaPlayerExample.a */,
+				D8C1F932DAACE18B0EA2E7D6 /* libPods-BrightcoveImaPlayerExample.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -134,8 +134,8 @@
 		6B9684456A2045ADE5A6E47E /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				2D812F7905C7D428C838C3BE /* Pods-BrightcoveImaPlayerExample.debug.xcconfig */,
-				2BE75178CBEED0D1E28757C6 /* Pods-BrightcoveImaPlayerExample.release.xcconfig */,
+				18BA2437DECCA278C0E03566 /* Pods-BrightcoveImaPlayerExample.debug.xcconfig */,
+				0AD39B5006F0A5969FD8F71E /* Pods-BrightcoveImaPlayerExample.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -198,14 +198,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "BrightcoveImaPlayerExample" */;
 			buildPhases = (
-				9FF2B1CC3818AC2B6B0BCFAF /* [CP] Check Pods Manifest.lock */,
+				6A1B4A1F1A3F30E4874E1610 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				F94653B455F3105F3BA70088 /* [CP] Embed Pods Frameworks */,
-				DC3A513FD7A0AE069D151FAF /* [CP] Copy Pods Resources */,
+				69E67F66962CA2A81CFE1E8D /* [CP] Embed Pods Frameworks */,
+				111667E0A828B28944A40B88 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -349,50 +349,14 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
-		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Bundle React Native Code And Images";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
-		};
-		9FF2B1CC3818AC2B6B0BCFAF /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-BrightcoveImaPlayerExample-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		DC3A513FD7A0AE069D151FAF /* [CP] Copy Pods Resources */ = {
+		111667E0A828B28944A40B88 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-BrightcoveImaPlayerExample/Pods-BrightcoveImaPlayerExample-resources.sh",
-				"${PODS_CONFIGURATION_BUILD_DIR}/Brightcove-Player-Core/BCOVPUIResources.bundle",
+				"${PODS_ROOT}/Brightcove-Player-Core/ios/dynamic/BrightcovePlayerSDK.framework/BCOVPUIResources.bundle",
 				"${PODS_CONFIGURATION_BUILD_DIR}/GoogleUserMessagingPlatform/UserMessagingPlatformResources.bundle",
 				"${PODS_CONFIGURATION_BUILD_DIR}/GoogleUtilities/GoogleUtilities_Privacy.bundle",
 				"${PODS_CONFIGURATION_BUILD_DIR}/PromisesObjC/FBLPromises_Privacy.bundle",
@@ -413,7 +377,21 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BrightcoveImaPlayerExample/Pods-BrightcoveImaPlayerExample-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F94653B455F3105F3BA70088 /* [CP] Embed Pods Frameworks */ = {
+		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native Code And Images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+		};
+		69E67F66962CA2A81CFE1E8D /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -422,7 +400,7 @@
 				"${PODS_ROOT}/Target Support Files/Pods-BrightcoveImaPlayerExample/Pods-BrightcoveImaPlayerExample-frameworks.sh",
 				"${PODS_ROOT}/Brightcove-Player-Core/ios/dynamic/BrightcovePlayerSDK.framework",
 				"${PODS_ROOT}/Brightcove-Player-IMA/ios/BrightcoveIMA.framework",
-				"${PODS_ROOT}/GoogleAds-IMA-iOS-SDK/GoogleInteractiveMediaAds.framework",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/GoogleAds-IMA-iOS-SDK/GoogleInteractiveMediaAds.framework/GoogleInteractiveMediaAds",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
@@ -433,6 +411,28 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BrightcoveImaPlayerExample/Pods-BrightcoveImaPlayerExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6A1B4A1F1A3F30E4874E1610 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BrightcoveImaPlayerExample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -569,7 +569,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2D812F7905C7D428C838C3BE /* Pods-BrightcoveImaPlayerExample.debug.xcconfig */;
+			baseConfigurationReference = 18BA2437DECCA278C0E03566 /* Pods-BrightcoveImaPlayerExample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -592,7 +592,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2BE75178CBEED0D1E28757C6 /* Pods-BrightcoveImaPlayerExample.release.xcconfig */;
+			baseConfigurationReference = 0AD39B5006F0A5969FD8F71E /* Pods-BrightcoveImaPlayerExample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;

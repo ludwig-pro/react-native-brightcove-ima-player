@@ -1,16 +1,16 @@
 PODS:
   - boost-for-react-native (1.63.0)
-  - Brightcove-Player-Core (6.10.6):
-    - Brightcove-Player-Core/Framework (= 6.10.6)
-  - Brightcove-Player-Core/Framework (6.10.6)
-  - Brightcove-Player-IMA (6.10.6):
-    - Brightcove-Player-IMA/Framework (= 6.10.6)
-    - GoogleAds-IMA-iOS-SDK (= 3.14.4)
-    - GoogleAds-IMA-tvOS-SDK (= 4.3.2)
-  - Brightcove-Player-IMA/Framework (6.10.6):
-    - Brightcove-Player-Core (= 6.10.6)
-    - GoogleAds-IMA-iOS-SDK (= 3.14.4)
-    - GoogleAds-IMA-tvOS-SDK (= 4.3.2)
+  - Brightcove-Player-Core (6.12.7):
+    - Brightcove-Player-Core/Framework (= 6.12.7)
+  - Brightcove-Player-Core/Framework (6.12.7)
+  - Brightcove-Player-IMA (6.12.7):
+    - Brightcove-Player-IMA/Framework (= 6.12.7)
+    - GoogleAds-IMA-iOS-SDK (= 3.19.1)
+    - GoogleAds-IMA-tvOS-SDK (= 4.9.1)
+  - Brightcove-Player-IMA/Framework (6.12.7):
+    - Brightcove-Player-Core (= 6.12.7)
+    - GoogleAds-IMA-iOS-SDK (= 3.19.1)
+    - GoogleAds-IMA-tvOS-SDK (= 4.9.1)
   - DoubleConversion (1.1.6)
   - FBLazyVector (0.63.4)
   - FBReactNativeSpec (0.63.4):
@@ -33,7 +33,7 @@ PODS:
   - Google-Mobile-Ads-SDK (10.10.0):
     - GoogleAppMeasurement (< 11.0, >= 7.0)
     - GoogleUserMessagingPlatform (>= 1.1)
-  - GoogleAds-IMA-iOS-SDK (3.14.4)
+  - GoogleAds-IMA-iOS-SDK (3.19.1)
   - GoogleAppMeasurement (10.29.0):
     - GoogleAppMeasurement/AdIdSupport (= 10.29.0)
     - GoogleUtilities/AppDelegateSwizzler (~> 7.11)
@@ -253,7 +253,7 @@ PODS:
     - React-jsi (= 0.63.4)
   - React-jsinspector (0.63.4)
   - react-native-brightcove-ima-player (2.3.6):
-    - Brightcove-Player-IMA (= 6.10.6)
+    - Brightcove-Player-IMA (= 6.12.7)
     - Google-Mobile-Ads-SDK (~> 10.10.0)
     - React-Core
   - React-RCTActionSheet (0.63.4):
@@ -422,15 +422,15 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   boost-for-react-native: 39c7adb57c4e60d6c5479dd8623128eb5b3f0f2c
-  Brightcove-Player-Core: 316d9291216efdbcae21fc36302e75575b36d7af
-  Brightcove-Player-IMA: f36b323caa132994178a183703fc251741a1fe37
+  Brightcove-Player-Core: 41f892a464fee6bbd6675faa13f57ab1d0e576d6
+  Brightcove-Player-IMA: 1a352d19c0cfe7e36aafeb1d777b08c9f52f2a3d
   DoubleConversion: cde416483dac037923206447da6e1454df403714
   FBLazyVector: 3bb422f41b18121b71783a905c10e58606f7dc3e
   FBReactNativeSpec: f2c97f2529dd79c083355182cc158c9f98f4bd6e
   Folly: b73c3869541e86821df3c387eb0af5f65addfab4
   glog: 40a13f7840415b9a77023fbcae0f1e6f43192af3
   Google-Mobile-Ads-SDK: 509e53bd31c6accb2d9c33b0eb66df1d54dda622
-  GoogleAds-IMA-iOS-SDK: c190284044e9a28b3e7422ba9886db015c71a84f
+  GoogleAds-IMA-iOS-SDK: 18adbec04a2e79ce828a992d37a4580deadbe525
   GoogleAppMeasurement: f9de05ee17401e3355f68e8fc8b5064d429f5918
   GoogleUserMessagingPlatform: a8b56893477f67212fbc8411c139e61d463349f5
   GoogleUtilities: ea963c370a38a8069cc5f7ba4ca849a60b6d7d15
@@ -446,7 +446,7 @@ SPEC CHECKSUMS:
   React-jsi: a0418934cf48f25b485631deb27c64dc40fb4c31
   React-jsiexecutor: 93bd528844ad21dc07aab1c67cb10abae6df6949
   React-jsinspector: 58aef7155bc9a9683f5b60b35eccea8722a4f53a
-  react-native-brightcove-ima-player: c8d1acb4035910ab5f9e0028d3058a98aee72c99
+  react-native-brightcove-ima-player: 920fbc27c9ccd9dac1106359b61cdcde060cd915
   React-RCTActionSheet: 89a0ca9f4a06c1f93c26067af074ccdce0f40336
   React-RCTAnimation: 1bde3ecc0c104c55df246eda516e0deb03c4e49b
   React-RCTBlob: a97d378b527740cc667e03ebfa183a75231ab0f0
@@ -459,6 +459,6 @@ SPEC CHECKSUMS:
   ReactCommon: 73d79c7039f473b76db6ff7c6b159c478acbbb3b
   Yoga: 4bd86afe9883422a7c4028c00e34790f560923d6
 
-PODFILE CHECKSUM: 0b0d1ddfb0241a352ff3a3929a573f94287e76f3
+PODFILE CHECKSUM: b354884ded1e9a91ea0cad0ded161ca00a09c239
 
 COCOAPODS: 1.15.2

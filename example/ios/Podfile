@@ -4,7 +4,7 @@ source 'https://github.com/brightcove/BrightcoveSpecs.git'
 require_relative '../node_modules/react-native/scripts/react_native_pods'
 require_relative '../node_modules/@react-native-community/cli-platform-ios/native_modules'
 
-platform :ios, '12.4'
+platform :ios, '14'
 
 target 'BrightcoveImaPlayerExample' do
   config = use_native_modules!

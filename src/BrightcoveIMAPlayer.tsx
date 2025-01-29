@@ -97,6 +97,7 @@ export class BrightcoveIMAPlayer extends Component<BrightcoveIMAPlayerProps> {
   componentWillUnmount = () => {
     if (Platform.OS === 'ios') {
       UIManager.dispatchViewManagerCommand(
+        // @ts-ignore
         findNodeHandle(this),
         UIManager.getViewManagerConfig(ComponentName).Commands.dispose,
         []
@@ -106,6 +107,7 @@ export class BrightcoveIMAPlayer extends Component<BrightcoveIMAPlayerProps> {
 
   seekTo = (seconds: number) => {
     UIManager.dispatchViewManagerCommand(
+      // @ts-ignore
       findNodeHandle(this),
       UIManager.getViewManagerConfig(ComponentName).Commands.seekTo,
       [seconds]
@@ -114,6 +116,7 @@ export class BrightcoveIMAPlayer extends Component<BrightcoveIMAPlayerProps> {
 
   toggleFullscreen = (isFullscreen: boolean) => {
     UIManager.dispatchViewManagerCommand(
+      // @ts-ignore
       findNodeHandle(this),
       UIManager.getViewManagerConfig(ComponentName).Commands.toggleFullscreen,
       [isFullscreen]
@@ -122,6 +125,7 @@ export class BrightcoveIMAPlayer extends Component<BrightcoveIMAPlayerProps> {
 
   toggleInViewPort = (inViewPort: boolean) => {
     UIManager.dispatchViewManagerCommand(
+      // @ts-ignore
       findNodeHandle(this),
       UIManager.getViewManagerConfig(ComponentName).Commands.toggleInViewPort,
       [inViewPort]
@@ -130,6 +134,7 @@ export class BrightcoveIMAPlayer extends Component<BrightcoveIMAPlayerProps> {
 
   stopPlayback = () => {
     UIManager.dispatchViewManagerCommand(
+      // @ts-ignore
       findNodeHandle(this),
       UIManager.getViewManagerConfig(ComponentName).Commands.stopPlayback,
       []
@@ -138,6 +143,7 @@ export class BrightcoveIMAPlayer extends Component<BrightcoveIMAPlayerProps> {
 
   play = () => {
     UIManager.dispatchViewManagerCommand(
+      // @ts-ignore
       findNodeHandle(this),
       UIManager.getViewManagerConfig(ComponentName).Commands.play,
       []
@@ -146,6 +152,7 @@ export class BrightcoveIMAPlayer extends Component<BrightcoveIMAPlayerProps> {
 
   pause = () => {
     UIManager.dispatchViewManagerCommand(
+      // @ts-ignore
       findNodeHandle(this),
       UIManager.getViewManagerConfig(ComponentName).Commands.pause,
       []

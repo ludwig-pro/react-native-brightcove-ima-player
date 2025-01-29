@@ -6,7 +6,7 @@ import android.widget.ImageView;
 import android.widget.RelativeLayout;
 
 import com.brightcove.player.edge.Catalog;
-import com.brightcove.player.edge.OfflineCatalog;
+// import com.brightcove.player.edge.OfflineCatalog;
 import com.brightcove.player.edge.VideoListener;
 import com.brightcove.player.model.Video;
 import com.facebook.react.bridge.LifecycleEventListener;
@@ -21,7 +21,7 @@ public class BrightcoveIMAPlayerPosterView extends RelativeLayout implements Lif
   private String policyKey;
   private String accountId;
   private String videoId;
-  private OfflineCatalog offlineCatalog;
+  // private OfflineCatalog offlineCatalog;
   private ImageLoader imageLoader;
 
   public BrightcoveIMAPlayerPosterView(ThemedReactContext context, ReactApplicationContext applicationContext) {

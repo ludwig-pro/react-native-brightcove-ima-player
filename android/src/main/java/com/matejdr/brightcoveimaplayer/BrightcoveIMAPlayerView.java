@@ -385,9 +385,9 @@ public class BrightcoveIMAPlayerView extends RelativeLayout implements Lifecycle
   private void playVideo(Video video) {
     BrightcoveIMAPlayerView.this.brightcoveVideoView.clear();
     BrightcoveIMAPlayerView.this.brightcoveVideoView.add(video);
-    // if (BrightcoveIMAPlayerView.this.autoPlay) {
-    //   BrightcoveIMAPlayerView.this.brightcoveVideoView.start();
-    // }
+    if (BrightcoveIMAPlayerView.this.autoPlay) {
+      BrightcoveIMAPlayerView.this.brightcoveVideoView.start();
+    }
   }
 
   private void fixVideoLayout() {

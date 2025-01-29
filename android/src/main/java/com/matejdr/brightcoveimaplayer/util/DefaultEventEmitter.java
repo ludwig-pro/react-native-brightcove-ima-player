@@ -28,6 +28,10 @@ public class DefaultEventEmitter implements EventEmitter {
   public void off(String s, int i) {
 
   }
+  @Override
+  public void emitNow(String s, Map<String, Object> map) {
+  
+  }
 
   @Override
   public void emit(String s) {

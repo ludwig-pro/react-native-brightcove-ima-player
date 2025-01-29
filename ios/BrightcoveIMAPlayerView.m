@@ -130,7 +130,7 @@
         
         // Configure autoAdvance, autoPlay, and allowsExternalPlayback settings
         BOOL autoAdvance = [settings objectForKey:@"autoAdvance"] != nil ? [[settings objectForKey:@"autoAdvance"] boolValue] : NO;
-        BOOL autoPlay = NO; // [settings objectForKey:@"autoPlay"] != nil ? [[settings objectForKey:@"autoPlay"] boolValue] : YES;
+        BOOL autoPlay = YES; // [settings objectForKey:@"autoPlay"] != nil ? [[settings objectForKey:@"autoPlay"] boolValue] : YES;
         BOOL allowsExternalPlayback = [settings objectForKey:@"allowsExternalPlayback"] != nil ? [[settings objectForKey:@"allowsExternalPlayback"] boolValue] : YES;
         
         _playbackController.autoAdvance = autoAdvance;

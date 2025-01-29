@@ -21,7 +21,7 @@ def safeExtGet(prop, fallback) {
 }
 
 android {
-    compileSdkVersion safeExtGet('BrightcoveImaPlayer_compileSdkVersion', 33)
+    compileSdkVersion safeExtGet('BrightcoveImaPlayer_compileSdkVersion', 34)
     defaultConfig {
         minSdkVersion safeExtGet('BrightcoveImaPlayer_minSdkVersion', 24)
         targetSdkVersion safeExtGet('BrightcoveImaPlayer_targetSdkVersion', 33)
@@ -60,6 +60,7 @@ repositories {
 
 dependencies {
     //noinspection GradleDynamicVersion
+    implementation "androidx.work:work-runtime-ktx:2.7.1"
     implementation "com.facebook.react:react-native:+"  // From node_modules
     implementation "com.brightcove.player:android-ima-plugin:${BRIGHTCOVE_VERSION}"
     implementation 'com.google.ads.interactivemedia.v3:interactivemedia:'+GOOGLE_IMA_SDK_VERSION

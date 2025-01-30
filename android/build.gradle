@@ -5,11 +5,10 @@ buildscript {
         repositories {
             google()
             mavenCentral()
-            jcenter()
         }
 
         dependencies {
-            classpath 'com.android.tools.build:gradle:4.1.1'
+            classpath 'com.android.tools.build:gradle:8.5.0'
         }
     }
 }
@@ -21,7 +20,8 @@ def safeExtGet(prop, fallback) {
 }
 
 android {
-    compileSdkVersion safeExtGet('BrightcoveImaPlayer_compileSdkVersion', 34)
+  namespace "com.matejdr.brightcoveimaplayer" // Ajoute cette ligne avec le bon namespace
+  compileSdkVersion safeExtGet('BrightcoveImaPlayer_compileSdkVersion', 34)
     defaultConfig {
         minSdkVersion safeExtGet('BrightcoveImaPlayer_minSdkVersion', 24)
         targetSdkVersion safeExtGet('BrightcoveImaPlayer_targetSdkVersion', 33)
@@ -38,10 +38,10 @@ android {
     lintOptions {
         disable 'GradleCompatible'
     }
-    compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_8
-        targetCompatibility JavaVersion.VERSION_1_8
-    }
+  compileOptions {
+    sourceCompatibility JavaVersion.VERSION_17
+    targetCompatibility JavaVersion.VERSION_17
+  }
 }
 
 repositories {
@@ -55,7 +55,6 @@ repositories {
     }
     google()
     mavenCentral()
-    jcenter()
 }
 
 dependencies {
@@ -68,4 +67,6 @@ dependencies {
     implementation "androidx.legacy:legacy-support-v4:${ANDROIDX_LEGACY_SUPPORT_V4}"
     implementation "com.brightcove.player:exoplayer2:${BRIGHTCOVE_VERSION}"
     implementation "androidx.media:media:${ANDROIDX_MEDIA}"
+    implementation 'com.facebook.fresco:fresco:2.5.0'
+    implementation 'com.facebook.fresco:imagepipeline-okhttp3:2.5.0'
 }

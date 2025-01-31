@@ -24,10 +24,15 @@ android {
   compileSdkVersion safeExtGet('BrightcoveImaPlayer_compileSdkVersion', 34)
     defaultConfig {
         minSdkVersion safeExtGet('BrightcoveImaPlayer_minSdkVersion', 24)
-        targetSdkVersion safeExtGet('BrightcoveImaPlayer_targetSdkVersion', 33)
+        targetSdkVersion safeExtGet('BrightcoveImaPlayer_targetSdkVersion', 34)
         versionCode 1
         versionName "1.0"
 
+    }
+    packagingOptions {
+       jniLibs {
+            useLegacyPackaging = true
+        }
     }
 
     buildTypes {
@@ -35,9 +40,11 @@ android {
             minifyEnabled false
         }
     }
+
     lintOptions {
         disable 'GradleCompatible'
     }
+    
   compileOptions {
     sourceCompatibility JavaVersion.VERSION_17
     targetCompatibility JavaVersion.VERSION_17
